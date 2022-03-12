@@ -1,0 +1,126 @@
+body {
+    background-color: #202124;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;    
+}
+
+.header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  
+}
+
+.header li{
+   margin: 0 10px 0 10px;
+    list-style-type: none;
+}
+
+.header li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: small;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    bottom: 5px;
+}
+.content img{
+    margin-bottom: 20px;
+}
+.content input{
+    margin: 10px;
+    width: 550px;
+    padding: 14px;
+    border-radius: 25px;
+    border: 1px solid grey;
+    background-color: transparent;
+
+}
+
+.content i{
+    color: rgb(197, 197, 197);
+    
+}
+
+.fa-magnifying-glass{
+    position: relative;
+    left: 45px;
+    top:2px;
+
+    }
+.fa-keyboard{
+    position: relative;
+    right: 80px;
+    top: 2px;
+    font-size: small;
+}
+
+.fa-microphone{
+    position: relative;
+    right: 60px;
+    top: 2px;
+
+}
+
+.content button{
+    background-color: #414141;
+    padding: 10px;
+    font-weight: 100;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #616161;
+    margin:15px 5px 0 0;
+    opacity: 0.8;
+}
+
+button:hover{
+    border: 1px solid #d3d3d3;;
+}
+
+/* footer */
+ .footer{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: relative;
+     top:275px;
+    box-sizing: border-box;
+     background-color: black;
+    
+ }
+
+ .footer div:first-child ul{
+     display: flex;
+     justify-content: space-evenly;
+
+     
+ }
+ .footer div:last-child ul{
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+
+ .footer li{
+     margin: 0 20px 0 20px;
+     list-style-type: none;
+     box-sizing: border-box;
+ }
+
+ 
+ 
+ .footer a {
+     text-decoration: none;
+     color: rgb(177, 177, 177);
+     font-size: small;
+ }
